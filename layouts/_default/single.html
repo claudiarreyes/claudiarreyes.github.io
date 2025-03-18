@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns">
+    <h1>{{ .Title }}</h1>
+    <p><time>{{ .Date.Format "January 2, 2006" }}</time></p>
+    <div>
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
+

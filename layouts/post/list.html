@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="pa3 pa4-ns">
+    <h1>DEBUG LIST PAGE: {{ .Title }}</h1>
+    {{ range .Pages }}
+      <article class="mb4">
+        <h2>DEBUG POST: <a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>DEBUG CONTENT:</p>
+        {{ .Content }}
+      </article>
+    {{ end }}
+  </div>
+{{ end }}
+

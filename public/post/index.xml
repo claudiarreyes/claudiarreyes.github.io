@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on *</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on *</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Machine Learning Approach to Vetting the Large Frequency Separation Δν</title>
+      <link>http://localhost:1313/post/vetting/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/vetting/</guid>
+      <description>&lt;p&gt;Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, ν&lt;sub&gt;max&lt;/sub&gt; (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.&lt;/p&gt;&#xA;&lt;p&gt;In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements. The classifier is independent of the method used to obtain νmax and Δν, making it a versatile tool for large datasets.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
