@@ -9,6 +9,7 @@ theme = "ananke"
   featured_image = "/images/clusterm67.jpg"
   disable_footer = true
   summaryLength = 1300
+  mainSections = ["post"]
 
 [markup]
   [markup.goldmark]
