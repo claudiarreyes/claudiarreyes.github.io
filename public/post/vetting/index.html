@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>A Machine Learning Approach to Vetting the Large Frequency Separation Δν | *</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, νmax (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.
+In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.">
+    <meta name="generator" content="Hugo 0.145.0">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://claudiarreyes.github.io/post/vetting/">
+    
+
+    <meta property="og:url" content="https://claudiarreyes.github.io/post/vetting/">
+  <meta property="og:site_name" content="*">
+  <meta property="og:title" content="A Machine Learning Approach to Vetting the Large Frequency Separation Δν">
+  <meta property="og:description" content="Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, νmax (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.
+In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-03-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-17T00:00:00+00:00">
+
+  <meta itemprop="name" content="A Machine Learning Approach to Vetting the Large Frequency Separation Δν">
+  <meta itemprop="description" content="Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, νmax (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.
+In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.">
+  <meta itemprop="datePublished" content="2025-03-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-03-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="221">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A Machine Learning Approach to Vetting the Large Frequency Separation Δν">
+  <meta name="twitter:description" content="Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, νmax (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.
+In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.">
+
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://claudiarreyes.github.io/images/neural-network.jpeg');">
+    
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        *
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          A Machine Learning Approach to Vetting the Large Frequency Separation Δν
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="pa3 pa4-ns">
+    <h1>A Machine Learning Approach to Vetting the Large Frequency Separation Δν</h1>
+    <p><time>March 17, 2025</time></p>
+    <div>
+      <p>Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, ν<sub>max</sub> (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.</p>
+<p>In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.</p>
+<figure>
+  <img src="/images/neural-network-performance.jpeg" alt="Network performace">
+  <figcaption style="font-size: 0.8em; color: gray;">(a) Distribution of neural network predictions on the training set. (b) Confusion matrix when a threshold is set at t = 0.5. Quadrants in black represent the number of correct predictions for each class and the white quadrants the number of mistakes for each class.</figcaption>
+</figure>
+<p>The classifier is independent of the method used to obtain ν<sub>max</sub> and Δν, making it a versatile tool for large datasets.
+Applying this method to red giant stars observed by the <strong>K2 Galactic Archaeology Program</strong>, we find that our results are consistent with well-characterized Kepler measurements. This approach enables the efficient selection of high-quality asteroseismic samples, supporting studies in Galactic archaeology and stellar evolution.</p>
+<p><strong>Read the full paper <a href="https://doi.org/10.1093/mnras/stac445">here</a>.</strong></p>
+<p>📥 <strong>Download the vetted K2 sample <a href="https://doi.org/10.26093/cds/vizier.75115578">here</a>.</strong></p>
+
+    </div>
+  </article>
+
+    </main>
+    <div></div>
+
+  </body>
+</html>
