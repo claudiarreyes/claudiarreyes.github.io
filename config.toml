@@ -10,6 +10,7 @@ theme = "ananke"
   disable_footer = true
   summaryLength = 1300
   mainSections = ["post"]
+  custom_css = ["css/custom.css"]
 
 [markup]
   [markup.goldmark]
