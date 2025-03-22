@@ -51,4 +51,6 @@ What made this discovery possible is the unique nature of M67. Since its stars f
 
 Our findings show that small separations still carry valuable information in evolved stars—and when combined with large separations, they can improve mass and age estimates well beyond the main sequence.
 
+<!--
 **📖 Read the full paper [here](https://doi.org/10.1093/mnras/stac445).**
+-->
