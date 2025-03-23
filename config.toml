@@ -1,7 +1,7 @@
 baseURL = "https://claudiarreyes.github.io/"
 languageCode = "en-us"
 title = "claudia.reyes@anu.edu.au"
-description = "Research Projects by Claudia Reyes"
+description = "Research projects by Claudia Reyes"
 theme = "ananke"
 
 [params]
