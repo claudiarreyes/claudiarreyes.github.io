@@ -13,6 +13,8 @@
     <div class="pa3 pa4-ns w-100 w-70-ns center">
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 
+    {{ partial "cards.html" . }}
+
       <section class="w-100 mw8">
         {{/* Range through the first $n_posts items of the section */}}
         {{ range (first $n_posts $section) }}

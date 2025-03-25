@@ -2,7 +2,7 @@
 title: "A Machine Learning Approach to Vetting the Large Frequency Separation Δν"
 date: 2025-03-17
 draft: false
-featured_image: "/images/neural-network.jpeg"
+featured_image: "/images/neural_net.jpeg"
 summary: ""
 description : ""
 ---

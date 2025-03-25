@@ -1,0 +1,19 @@
+<section class="flex flex-wrap justify-center mt4 mb5">
+  {{ range first 4 (where .Site.RegularPages "Section" "post") }}
+    <a href="{{ .RelPermalink }}" class="flex flex-column w-40-l w-80 ba br3 pa3 ma3 link dim bg-white dark-gray hover-bg-light-gray" style="text-decoration: none;">
+      
+      {{ with partial "func/GetFeaturedImage.html" . }}
+        <img src="{{ . }}" alt="Image for {{ $.Title }}"
+             class="w-100 br2 mb3"
+             style="max-height: 200px; object-fit: cover;">
+      {{ else }}
+        <div class="w-100 br2 mb3 bg-light-silver" style="height: 200px;"></div>
+      {{ end }}
+
+      <h3 class="f4 fw5 lh-title mt2 mb0 tc" style="word-wrap: break-word;">
+        {{ .Title }}
+      </h3>
+
+    </a>
+  {{ end }}
+</section>

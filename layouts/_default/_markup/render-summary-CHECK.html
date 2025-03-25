@@ -1,0 +1,8 @@
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+<div style="background: hotpink; padding: 2rem;">
+  ✅ CUSTOM SUMMARY HOOK WORKING
+
+  <p><strong>Title:</strong> {{ .Title }}</p>
+  <p><strong>Permalink:</strong> <a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a></p>
+  <p><strong>Summary:</strong> {{ .Summary }}</p>
+</div>

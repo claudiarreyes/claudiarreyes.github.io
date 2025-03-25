@@ -1,10 +1,11 @@
 {{ define "main" }}
-  <article class="pa3 pa4-ns">
-    <h1>{{ .Title }}</h1>
-    <!-- <p><time>{{ .Date.Format "January 2, 2006" }}</time></p> -->
-    <div>
-      {{ .Content }}
-    </div>
-  </article>
+<article class="pa3 pa4-ns center lh-copy" style="max-width: 1200px; width: 80%;">
+  <h1 class="f2 lh-title">{{ .Title }}</h1>
+  <!-- <p><time>{{ .Date.Format "January 2, 2006" }}</time></p> -->
+  <div class="mt3">
+    {{ .Content }}
+  </div>
+</article>
+
 {{ end }}
 
