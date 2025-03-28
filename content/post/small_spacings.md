@@ -1,5 +1,5 @@
 ---
-title: "Acoustic modes in M67 cluster stars trace deepening convective envelopes"
+title: "Acoustic modes in M67 trace deepening convective envelopes"
 date: 2025-03-20T08:57:33+11:00
 tags: []
 featured_image: "/images/REDGIANT.jpg"
@@ -52,6 +52,4 @@ What made this discovery possible is the unique nature of M67. Since its stars f
 
 Our findings show that small separations still carry valuable information in evolved stars—and when combined with large separations, they can improve mass and age estimates well beyond the main sequence.
 
-<!--
-**📖 Read the full paper [here](https://doi.org/10.1093/mnras/stac445).**
--->
+<p><strong>These results have been published in <em>Nature</em> (April 10, 2025 issue).</strong> 📖 Read the full paper <a href="https://www.nature.com/articles/s41586-025-08">here</a>.</p>

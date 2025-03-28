@@ -1,5 +1,5 @@
 ---
-title: "Isochrone Fitting of M67 in the Gaia Era: Refining Stellar Models for Open Cluster Studies"
+title: "Isochrone Fitting of M67 in the Gaia Era"
 date: 2025-03-18T16:39:31+11:00
 tags: []
 draft: false

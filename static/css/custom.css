@@ -8,3 +8,7 @@ main.single-page {
     max-width: 80% !important;
     margin: 0 auto;
 }
+
+.wide-content .measure {
+  max-width: 100% !important;
+}
