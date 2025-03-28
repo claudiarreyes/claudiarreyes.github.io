@@ -49,7 +49,7 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
 
   <meta itemprop="name" content="About Me">
   <meta itemprop="description" content="I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.">
-  <meta itemprop="wordCount" content="185">
+  <meta itemprop="wordCount" content="192">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="About Me">
   <meta name="twitter:description" content="I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.">
@@ -119,7 +119,11 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
     width: 100px;
     margin: 0 1em 1em 0;
   }
-
+  .wide-image {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 2em;
+  }
   /* Image grid for gallery */
   .image-grid {
     display: grid;
@@ -154,10 +158,18 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
 <p>Before my PhD, I worked at the Very Large Telescope (VLT) in Paranal, located in the Atacama Desert in Chile, as part of the telescopes &amp; instruments operations team.</p>
 <p>I also hold an MSc in Astrophysics from Liverpool John Moores University (LJMU) in England, and a degree in Electronic Engineering from the Universidad de La Frontera (UFRO) in Chile.</p>
 <p>My current research interests include asteroseismology, galactic archaeology, stellar clusters, and binary stars.</p>
-<div class="wide-image">
-  <img src="/images/trail_wide.JPG" alt="Atacama trail">
-  <div class="image-caption">Strolling near the VLT in the stunning Atacama Desert landscape</div>
-</div>
+<figure style="text-align: center; margin-bottom: 2em;">
+  <img src="/images/stromlo.JPG" alt="The view from Mount Stromlo (RSAA, ANU)" style="max-width: 100%; border-radius: 6px;">
+  <figcaption style="font-size: 0.85rem; color: #555; margin-top: 0.5em; font-style: italic;">
+    The view from Mount Stromlo (RSAA, ANU)
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin-bottom: 2em;">
+  <img src="/images/trail_wide.JPG" alt="Strolling near the VLT in the Atacama Desert" style="max-width: 100%; border-radius: 6px;">
+  <figcaption style="font-size: 0.85rem; color: #555; margin-top: 0.5em; font-style: italic;">
+    Strolling near the VLT in the stunning Atacama Desert landscape
+  </figcaption>
+</figure>
 <div class="image-grid">
 <figure>
   <img src="/images/elt_me.jpg" alt="ELT site">
