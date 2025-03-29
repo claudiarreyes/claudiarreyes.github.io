@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -13,12 +13,12 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
     
     
     
-      <meta name="robots" content="noindex, nofollow">
+      <meta name="robots" content="index, follow">
     
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
 
 
 
@@ -37,10 +37,10 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
     
 
     
-      <link rel="canonical" href="http://localhost:1313/post/about/">
+      <link rel="canonical" href="https://claudiarreyes.github.io/post/about/">
     
 
-    <meta property="og:url" content="http://localhost:1313/post/about/">
+    <meta property="og:url" content="https://claudiarreyes.github.io/post/about/">
   <meta property="og:site_name" content=" ">
   <meta property="og:title" content="About Me">
   <meta property="og:description" content="I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.">
@@ -55,52 +55,56 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
   <meta name="twitter:title" content="About Me">
   <meta name="twitter:description" content="I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.">
 
+      
+    
 	
-  </head><body class="ma0 avenir bg-near-white development">
+  </head><body class="ma0 avenir bg-near-white production">
 
     
 
   
   
-  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/stromlo.JPG');">
+  
+    <header class="cover bg-top uniform-header" style="background-image: url('https://claudiarreyes.github.io/images/stromlo.JPG');">
     
     <div class="bg-black-60">
       <style>
+
+    .menu-container {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      z-index: 1001;
+    }
+    
     .menu-toggle {
+      cursor: pointer;
+      width: 28px;
+      height: 24px;  
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      width: 28px;
-      height: 22px;
-      cursor: pointer;
-      padding: 0.5rem;
+      justify-content: space-between;
+      padding: 0;
     }
   
     .menu-bar {
-      height: 2px;
-      background: white;
-      border-radius: 1px;
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      border-radius: 2px;
       transition: all 0.3s ease;
-    }
-  
-    .menu-container {
-      position: relative;
-      display: flex;
-      align-items: center;
-      padding: 1rem;
-      height: auto;
-      z-index: 1001;
     }
   
     #dropdown-menu {
       display: none;
       position: absolute;
-      top: 52px;
-      left: 1rem;
-      background: rgba(0, 0, 0, 0.95);
+      top: 30px;
+      left: 0.5rem;
+      background-color: rgba(0, 0, 0, 0.95);
+      padding: 0.75rem 1rem;
       border-radius: 0.5rem;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-      padding: 0.5rem 1rem;
+      z-index: 1000;
       opacity: 0;
       transition: opacity 0.2s ease-in-out;
     }
@@ -115,7 +119,6 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
       padding: 0.5rem 0;
       color: white;
       text-decoration: none;
-      font-weight: 400;
     }
   
     #dropdown-menu a:hover {
@@ -152,7 +155,8 @@ I am a Postdoctoral Fellow at the Australian National University (ANU) in Canber
     });
   </script>
   
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+  
+      <div class="tc-l ph3 ph4-ns compact-title">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
           About Me
         </h1>
