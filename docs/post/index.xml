@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on  </title>
-    <link>htps://claudiarreyes.github.io/post/</link>
+    <link>https://claudiarreyes.github.io/post/</link>
     <description>Recent content in Posts on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Mar 2025 08:57:33 +1100</lastBuildDate>
-    <atom:link href="htps://claudiarreyes.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://claudiarreyes.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acoustic modes in M67 trace deepening convective envelopes</title>
-      <link>htps://claudiarreyes.github.io/post/small_spacings/</link>
+      <link>https://claudiarreyes.github.io/post/small_spacings/</link>
       <pubDate>Thu, 20 Mar 2025 08:57:33 +1100</pubDate>
-      <guid>htps://claudiarreyes.github.io/post/small_spacings/</guid>
+      <guid>https://claudiarreyes.github.io/post/small_spacings/</guid>
       <description>&lt;p&gt;Stars constantly vibrate with acoustic waves that travel through their interiors. These vibrations carry detailed information about the physical structure hidden beneath a star’s surface. By studying the frequency patterns of these oscillations, we can measure things like a star’s density and even estimate its age.&lt;/p&gt;&#xA;&lt;p&gt;Two types of frequency differences are particularly important: large separations, which are sensitive to the average density of the star, and small separations, which are linked to the structure of the stellar core. In main-sequence stars like the Sun, small separations provide a powerful window into the core’s properties and can be used to estimate stellar ages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Asteroseismology of M67: Seismic Characterisation Across Evolutionary Phases</title>
-      <link>htps://claudiarreyes.github.io/post/m67/</link>
+      <link>https://claudiarreyes.github.io/post/m67/</link>
       <pubDate>Tue, 18 Mar 2025 17:51:04 +1100</pubDate>
-      <guid>htps://claudiarreyes.github.io/post/m67/</guid>
-      <description>&lt;p&gt;Ensemble asteroseismology has revolutionized our ability to empirically link observed seismic properties to fundamental stellar parameters. Star clusters, with their uniform metallicity, distance, and age, provide an ideal environment for refining these relations.&lt;/p&gt;&#xA;&lt;p&gt;In this study, we present the first asteroseismic analysis of M67 that spans its full evolutionary sequence, from subgiants to core helium-burning red giants, including a yellow straggler.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;htps://claudiarreyes.github.io/images/psd.png&#34; alt=&#34;M67 stars examples&#34;&gt;&#xA;  &lt;figcaption style=&#34;font-size: 0.8em; color: gray;&#34;&gt;Examples of the characteristic &#34;near Gaussian&#34;-shaped excess power observed in the power spectra of M67 stars from near the tip of the red-giant&#xA;branch (EPIC 211376143) to the subgiant branch (EPIC 211414203). The yellow curves represent the smoothed power spectrum, the white area represents the&#xA;portion of the spectrum where the excess power is located, and the red vertical lines indicate the frequency of maximum power, 𝜈&lt;sub&gt;max&lt;/sub&gt;.&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;Using &lt;strong&gt;Kepler/K2&lt;/strong&gt; data, we measure seismic surface gravity, examine the potential role of core magnetic fields, and derive an empirical expression for the &lt;strong&gt;seismic surface term&lt;/strong&gt;. We also extend the analysis of the asymptotic phase term &lt;strong&gt;ɛ&lt;/strong&gt; to evolutionary stages previously unexplored in detail.&lt;/p&gt;</description>
+      <guid>https://claudiarreyes.github.io/post/m67/</guid>
+      <description>&lt;p&gt;Ensemble asteroseismology has revolutionized our ability to empirically link observed seismic properties to fundamental stellar parameters. Star clusters, with their uniform metallicity, distance, and age, provide an ideal environment for refining these relations.&lt;/p&gt;&#xA;&lt;p&gt;In this study, we present the first asteroseismic analysis of M67 that spans its full evolutionary sequence, from subgiants to core helium-burning red giants, including a yellow straggler.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;https://claudiarreyes.github.io/images/psd.png&#34; alt=&#34;M67 stars examples&#34;&gt;&#xA;  &lt;figcaption style=&#34;font-size: 0.8em; color: gray;&#34;&gt;Examples of the characteristic &#34;near Gaussian&#34;-shaped excess power observed in the power spectra of M67 stars from near the tip of the red-giant&#xA;branch (EPIC 211376143) to the subgiant branch (EPIC 211414203). The yellow curves represent the smoothed power spectrum, the white area represents the&#xA;portion of the spectrum where the excess power is located, and the red vertical lines indicate the frequency of maximum power, 𝜈&lt;sub&gt;max&lt;/sub&gt;.&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;Using &lt;strong&gt;Kepler/K2&lt;/strong&gt; data, we measure seismic surface gravity, examine the potential role of core magnetic fields, and derive an empirical expression for the &lt;strong&gt;seismic surface term&lt;/strong&gt;. We also extend the analysis of the asymptotic phase term &lt;strong&gt;ɛ&lt;/strong&gt; to evolutionary stages previously unexplored in detail.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Isochrone Fitting of M67 in the Gaia Era</title>
-      <link>htps://claudiarreyes.github.io/post/isochrone/</link>
+      <link>https://claudiarreyes.github.io/post/isochrone/</link>
       <pubDate>Tue, 18 Mar 2025 16:39:31 +1100</pubDate>
-      <guid>htps://claudiarreyes.github.io/post/isochrone/</guid>
+      <guid>https://claudiarreyes.github.io/post/isochrone/</guid>
       <description>&lt;p&gt;The Gaia mission has transformed our understanding of open clusters by significantly reducing scatter in colour-magnitude diagrams (CMDs). This improvement allows for more precise stellar modelling, making M67 an ideal test case.&lt;/p&gt;&#xA;&lt;p&gt;Using Gaia’s refined CMD, we developed new stellar models that avoid common simplifications in 1D modelling, such as &lt;strong&gt;mass-independent core overshooting&lt;/strong&gt; and a &lt;strong&gt;constant mixing length parameter&lt;/strong&gt;. This approach led to an isochrone tailored specifically for M67, now available for download.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Machine Learning Approach to Vetting Δν</title>
-      <link>htps://claudiarreyes.github.io/post/vetting/</link>
+      <link>https://claudiarreyes.github.io/post/vetting/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>htps://claudiarreyes.github.io/post/vetting/</guid>
+      <guid>https://claudiarreyes.github.io/post/vetting/</guid>
       <description>&lt;p&gt;Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, ν&lt;sub&gt;max&lt;/sub&gt; (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.&lt;/p&gt;&#xA;&lt;p&gt;In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>htps://claudiarreyes.github.io/post/about/</link>
+      <link>https://claudiarreyes.github.io/post/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>htps://claudiarreyes.github.io/post/about/</guid>
-      <description>&lt;style&gt;&#xA;  /* Portrait image styles */&#xA;  .tiny-left {&#xA;    float: left;&#xA;    width: 100px;&#xA;    margin: 0 1em 1em 0;&#xA;  }&#xA;  .wide-image {&#xA;    max-width: 100%;&#xA;    border-radius: 6px;&#xA;    margin-bottom: 2em;&#xA;  }&#xA;  /* Image grid for gallery */&#xA;  .image-grid {&#xA;    display: grid;&#xA;    grid-template-columns: repeat(2, 1fr);&#xA;    gap: 1em;&#xA;    max-width:900px;&#xA;    margin: 3em auto;&#xA;  }&#xA;&#xA;  .image-grid figure {&#xA;    margin: 0;&#xA;    text-align: center;&#xA;  }&#xA;&#xA;  .image-grid img {&#xA;    width: 100%;&#xA;    height: 270px;&#xA;    object-fit: cover;&#xA;    border-radius: 2px;&#xA;  }&#xA;&#xA;  .image-caption {&#xA;    font-size: 0.85rem;&#xA;    color: #555;&#xA;    margin-top: 0.5em;&#xA;    font-style: italic;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;img src=&#34;htps://claudiarreyes.github.io/images/portrait.jpg&#34; alt=&#34;Portrait photo&#34; class=&#34;tiny-left&#34;&gt;&#xA;&lt;p&gt;I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.&lt;/p&gt;</description>
+      <guid>https://claudiarreyes.github.io/post/about/</guid>
+      <description>&lt;style&gt;&#xA;  /* Portrait image styles */&#xA;  .tiny-left {&#xA;    float: left;&#xA;    width: 100px;&#xA;    margin: 0 1em 1em 0;&#xA;  }&#xA;  .wide-image {&#xA;    max-width: 100%;&#xA;    border-radius: 6px;&#xA;    margin-bottom: 2em;&#xA;  }&#xA;  /* Image grid for gallery */&#xA;  .image-grid {&#xA;    display: grid;&#xA;    grid-template-columns: repeat(2, 1fr);&#xA;    gap: 1em;&#xA;    max-width:900px;&#xA;    margin: 3em auto;&#xA;  }&#xA;&#xA;  .image-grid figure {&#xA;    margin: 0;&#xA;    text-align: center;&#xA;  }&#xA;&#xA;  .image-grid img {&#xA;    width: 100%;&#xA;    height: 270px;&#xA;    object-fit: cover;&#xA;    border-radius: 2px;&#xA;  }&#xA;&#xA;  .image-caption {&#xA;    font-size: 0.85rem;&#xA;    color: #555;&#xA;    margin-top: 0.5em;&#xA;    font-style: italic;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;img src=&#34;https://claudiarreyes.github.io/images/portrait.jpg&#34; alt=&#34;Portrait photo&#34; class=&#34;tiny-left&#34;&gt;&#xA;&lt;p&gt;I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
