@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -19,12 +19,12 @@ Using Kepler/K2 data, we measure seismic surface gravity, examine the potential 
     
     
     
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="noindex, nofollow">
     
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
 
 
 
@@ -43,10 +43,10 @@ Using Kepler/K2 data, we measure seismic surface gravity, examine the potential 
     
 
     
-      <link rel="canonical" href="https://claudiarreyes.github.io/post/m67/">
+      <link rel="canonical" href="http://localhost:1313/post/m67/">
     
 
-    <meta property="og:url" content="https://claudiarreyes.github.io/post/m67/">
+    <meta property="og:url" content="http://localhost:1313/post/m67/">
   <meta property="og:site_name" content=" ">
   <meta property="og:title" content="Asteroseismology of M67: Seismic Characterisation Across Evolutionary Phases">
   <meta property="og:description" content="Ensemble asteroseismology has revolutionized our ability to empirically link observed seismic properties to fundamental stellar parameters. Star clusters, with their uniform metallicity, distance, and age, provide an ideal environment for refining these relations.
@@ -71,55 +71,52 @@ Examples of the characteristic &#34;near Gaussian&#34;-shaped excess power obser
 In this study, we present the first asteroseismic analysis of M67 that spans its full evolutionary sequence, from subgiants to core helium-burning red giants, including a yellow straggler.
 Examples of the characteristic &#34;near Gaussian&#34;-shaped excess power observed in the power spectra of M67 stars from near the tip of the red-giant branch (EPIC 211376143) to the subgiant branch (EPIC 211414203). The yellow curves represent the smoothed power spectrum, the white area represents the portion of the spectrum where the excess power is located, and the red vertical lines indicate the frequency of maximum power, 𝜈max. Using Kepler/K2 data, we measure seismic surface gravity, examine the potential role of core magnetic fields, and derive an empirical expression for the seismic surface term. We also extend the analysis of the asymptotic phase term ɛ to evolutionary stages previously unexplored in detail.">
 
-      
-    
 	
-  </head><body class="ma0 avenir bg-near-white production">
+  </head><body class="ma0 avenir bg-near-white development">
 
     
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://claudiarreyes.github.io/images/NGC2682_-_SDSS_DR14_%28panorama%29.jpg');">
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/NGC2682_-_SDSS_DR14_%28panorama%29.jpg');">
     
     <div class="bg-black-60">
       <style>
+    .menu-toggle {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 28px;
+      height: 22px;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+  
+    .menu-bar {
+      height: 2px;
+      background: white;
+      border-radius: 1px;
+      transition: all 0.3s ease;
+    }
+  
     .menu-container {
       position: relative;
       display: flex;
       align-items: center;
       padding: 1rem;
+      height: auto;
       z-index: 1001;
-    }
-  
-    .menu-toggle {
-      cursor: pointer;
-      width: 28px;
-      height: 24px;  
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 0;
-    }
-  
-    .menu-bar {
-      width: 100%;
-      height: 3px;
-      background-color: white;
-      border-radius: 2px;
-      transition: all 0.3s ease;
     }
   
     #dropdown-menu {
       display: none;
       position: absolute;
-      top: 30px;
-      left: 0.5rem;
-      background-color: rgba(0, 0, 0, 0.95);
-      padding: 0.75rem 1rem;
+      top: 52px;
+      left: 1rem;
+      background: rgba(0, 0, 0, 0.95);
       border-radius: 0.5rem;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-      z-index: 1000;
+      padding: 0.5rem 1rem;
       opacity: 0;
       transition: opacity 0.2s ease-in-out;
     }
@@ -134,6 +131,7 @@ Examples of the characteristic &#34;near Gaussian&#34;-shaped excess power obser
       padding: 0.5rem 0;
       color: white;
       text-decoration: none;
+      font-weight: 400;
     }
   
     #dropdown-menu a:hover {

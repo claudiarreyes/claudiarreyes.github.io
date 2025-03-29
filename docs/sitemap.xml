@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://claudiarreyes.github.io/post/small_spacings/</loc>
+    <loc>http://localhost:1313/post/small_spacings/</loc>
     <lastmod>2025-03-20T08:57:33+11:00</lastmod>
   </url><url>
-    <loc>https://claudiarreyes.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-03-20T08:57:33+11:00</lastmod>
   </url><url>
-    <loc>https://claudiarreyes.github.io/post/m67/</loc>
+    <loc>http://localhost:1313/post/m67/</loc>
     <lastmod>2025-03-18T17:51:04+11:00</lastmod>
   </url><url>
-    <loc>https://claudiarreyes.github.io/post/isochrone/</loc>
+    <loc>http://localhost:1313/post/isochrone/</loc>
     <lastmod>2025-03-18T16:39:31+11:00</lastmod>
   </url><url>
-    <loc>https://claudiarreyes.github.io/post/vetting/</loc>
+    <loc>http://localhost:1313/post/vetting/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://claudiarreyes.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://claudiarreyes.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://claudiarreyes.github.io/post/about/</loc>
+    <loc>http://localhost:1313/post/about/</loc>
   </url><url>
-    <loc>https://claudiarreyes.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://claudiarreyes.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
