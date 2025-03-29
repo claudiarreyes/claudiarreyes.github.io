@@ -40,28 +40,30 @@ header.cover .tc-l {
   padding-bottom: 2rem;
 }
 
-/* Shrink the page title text */
+/* Larger, more prominent page title */
 .compact-title h1 {
-  font-size: 1.75rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 500;
   line-height: 1.2;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 768px) {
   .compact-title h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
   }
 }
 
-/* Optional: shrink subtitle too */
+/* Slightly larger subtitle */
 .compact-title h2 {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 @media (min-width: 768px) {
   .compact-title h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -78,8 +80,6 @@ header.cover.uniform-header {
     min-height: 200px;
   }
 }
-
-
 
 /* Reduce homepage header size only */
 /* Default (mobile) size for homepage header */
@@ -109,3 +109,24 @@ body.home header.cover {
     margin-right: 1rem;
   }
 }
+
+/* Slightly reduce content font size on desktop */
+main,
+article,
+.post-content,
+section,
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .compact-title h1,
+  .compact-title h2 {
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+
