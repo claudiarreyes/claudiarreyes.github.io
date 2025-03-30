@@ -40,31 +40,19 @@ header.cover .tc-l {
   padding-bottom: 2rem;
 }
 
-/* Larger, more prominent page title */
+/* Responsive page title */
 .compact-title h1 {
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 6vw, 3rem);
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
 
-@media (min-width: 768px) {
-  .compact-title h1 {
-    font-size: 3rem;
-  }
-}
-
-/* Slightly larger subtitle */
+/* Responsive subtitle */
 .compact-title h2 {
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 4.5vw, 1.5rem);
   font-weight: 300;
   line-height: 1.4;
-}
-
-@media (min-width: 768px) {
-  .compact-title h2 {
-    font-size: 1.5rem;
-  }
 }
 
 /* Unified header height for all pages */
@@ -82,13 +70,11 @@ header.cover.uniform-header {
 }
 
 /* Reduce homepage header size only */
-/* Default (mobile) size for homepage header */
 body.home header.cover {
   height: 48vh;
   min-height: 260px;
 }
 
-/* Larger homepage header on desktops */
 @media (min-width: 768px) {
   body.home header.cover {
     height: 60vh;
@@ -119,20 +105,3 @@ p {
   font-size: 1.1rem;
   line-height: 1.5;
 }
-
-@media (max-width: 768px) {
-  .compact-title h1,
-  .compact-title h2 {
-    text-align: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-
-
-<style>
-  h1, .post-title, .page-title {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
-    word-wrap: break-word;
-  }
-</style>
