@@ -55,10 +55,13 @@ header.cover .tc-l {
   line-height: 1.4;
 }
 
-/* Unified header height for all pages */
-header.cover.uniform-header {
-  height: 35vh;
-  min-height: 260px;
+/* Shorter header only on wide screens */
+@media (min-width: 769px) {
+  header.cover.uniform-header {
+    height: 22vh;
+    min-height: 160px;
+    max-height: 280px;
+  }
 }
 
 /* Slightly shorter on mobile */
@@ -66,7 +69,6 @@ header.cover.uniform-header {
   header.cover.uniform-header {
     height: 25vh;
     min-height: 200px;
-    background-color: red;
   }
 }
 
