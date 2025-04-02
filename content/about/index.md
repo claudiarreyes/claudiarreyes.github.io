@@ -1,7 +1,5 @@
 ---
 title: "About Me"
-menu: main
-type: "post"
 featured_image: "/images/stromlo.JPG"
 ---
 
