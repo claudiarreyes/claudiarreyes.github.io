@@ -1,7 +1,7 @@
 baseURL = "https://claudiarreyes.github.io/"
 languageCode = "en-us"
-title = "claudia.reyes@anu.edu.au"
-description = "Research projects by Claudia Reyes"
+title = " "
+description =  "by Claudia Reyes"
 theme = "ananke"
 
 [params]
@@ -10,7 +10,7 @@ theme = "ananke"
   disable_footer = true
   summaryLength = 1300
   mainSections = ["post"]
-  custom_css = ["css/custom.css"]
+  custom_css = ["css/custom.css?v=2"]
 
 [markup]
   [markup.goldmark]
@@ -20,5 +20,8 @@ theme = "ananke"
 [frontmatter]
   summary = [""]
 
-[params.social]
-  about = "/about/"
+[[menu.main]]
+identifier = "Home"
+name = "Home"
+url = "/."
+weight = 10

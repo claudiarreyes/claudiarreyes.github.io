@@ -1,14 +1,107 @@
 .mw8 {
-    max-width: 100% !important;
-    margin: 0 auto;
-  }
+  max-width: 100% !important;
+  margin: 0 auto;
+}
 
 /* Narrow the container on single post pages */
 main.single-page {
-    max-width: 80% !important;
-    margin: 0 auto;
+  max-width: 80% !important;
+  margin: 0 auto;
 }
 
 .wide-content .measure {
   max-width: 100% !important;
+}
+
+/* Shrink title + overlay padding on all headers */
+header.cover .bg-black-60 {
+  height: 100%;
+  display: flex;
+  align-items: center; /* vertically centers the title */
+  justify-content: center;
+  padding: 0; /* remove any inherited padding */
+}
+
+header.cover .tc-l {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+/* Optional: tighten on small screens */
+@media (max-width: 768px) {
+  header.cover .tc-l {
+    padding: 1rem 1rem;
+  }
+}
+
+/* Shrink the title block padding */
+.compact-title {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Responsive page title */
+.compact-title h1 {
+  font-size: clamp(1.5rem, 6vw, 3rem);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive subtitle */
+.compact-title h2 {
+  font-size: clamp(1rem, 4.5vw, 1.5rem);
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/* Unified header height for all pages */
+header.cover.uniform-header {
+  height: 35vh;
+  min-height: 260px;
+}
+
+/* Slightly shorter on mobile */
+@media (max-width: 768px) {
+  header.cover.uniform-header {
+    height: 25vh;
+    min-height: 200px;
+  }
+}
+
+/* Reduce homepage header size only */
+body.home header.cover {
+  height: 48vh;
+  min-height: 260px;
+}
+
+@media (min-width: 768px) {
+  body.home header.cover {
+    height: 60vh;
+    min-height: 320px;
+  }
+}
+
+/* Left-align header title + subtitle on mobile */
+@media (max-width: 768px) {
+  header.cover .tc-l {
+    text-align: left;
+  }
+
+  header.cover .tc-l h1,
+  header.cover .tc-l h2 {
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/* Slightly reduce content font size on desktop */
+main,
+article,
+.post-content,
+section,
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
 }

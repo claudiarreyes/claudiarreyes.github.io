@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on claudia.reyes@anu.edu.au</title>
+    <title>Posts on  </title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on claudia.reyes@anu.edu.au</description>
+    <description>Recent content in Posts on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Mar 2025 08:57:33 +1100</lastBuildDate>
@@ -35,6 +35,13 @@
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/vetting/</guid>
       <description>&lt;p&gt;Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, ν&lt;sub&gt;max&lt;/sub&gt; (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.&lt;/p&gt;&#xA;&lt;p&gt;In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/post/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/about/</guid>
+      <description>&lt;style&gt;&#xA;  /* Portrait image styles */&#xA;  .tiny-left {&#xA;    float: left;&#xA;    width: 100px;&#xA;    margin: 0 1em 1em 0;&#xA;  }&#xA;  .wide-image {&#xA;    max-width: 100%;&#xA;    border-radius: 6px;&#xA;    margin-bottom: 2em;&#xA;  }&#xA;  /* Image grid for gallery */&#xA;  .image-grid {&#xA;    display: grid;&#xA;    grid-template-columns: repeat(2, 1fr);&#xA;    gap: 1em;&#xA;    max-width:900px;&#xA;    margin: 3em auto;&#xA;  }&#xA;&#xA;  .image-grid figure {&#xA;    margin: 0;&#xA;    text-align: center;&#xA;  }&#xA;&#xA;  .image-grid img {&#xA;    width: 100%;&#xA;    height: 270px;&#xA;    object-fit: cover;&#xA;    border-radius: 2px;&#xA;  }&#xA;&#xA;  .image-caption {&#xA;    font-size: 0.85rem;&#xA;    color: #555;&#xA;    margin-top: 0.5em;&#xA;    font-style: italic;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/portrait.jpg&#34; alt=&#34;Portrait photo&#34; class=&#34;tiny-left&#34;&gt;&#xA;&lt;p&gt;I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

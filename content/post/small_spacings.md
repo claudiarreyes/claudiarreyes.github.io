@@ -6,6 +6,7 @@ featured_image: "/images/REDGIANT.jpg"
 summary: ""
 description : ""
 ---
+
 Stars constantly vibrate with acoustic waves that travel through their interiors. These vibrations carry detailed information about the physical structure hidden beneath a star’s surface. By studying the frequency patterns of these oscillations, we can measure things like a star’s density and even estimate its age.
 
 Two types of frequency differences are particularly important: large separations, which are sensitive to the average density of the star, and small separations, which are linked to the structure of the stellar core. In main-sequence stars like the Sun, small separations provide a powerful window into the core’s properties and can be used to estimate stellar ages.
@@ -51,5 +52,6 @@ As stars evolve, their outer convective layers begin to dig deeper into the inte
 What made this discovery possible is the unique nature of M67. Since its stars formed at the same time and have similar compositions, we can trace how seismic signals evolve with stellar evolution in a clean, controlled way.
 
 Our findings show that small separations still carry valuable information in evolved stars—and when combined with large separations, they can improve mass and age estimates well beyond the main sequence.
-
+<!--
 <p><strong>These results have been published in <em>Nature</em> (April 10, 2025 issue).</strong> 📖 Read the full paper <a href="https://www.nature.com/articles/s41586-025-08">here</a>.</p>
+-->

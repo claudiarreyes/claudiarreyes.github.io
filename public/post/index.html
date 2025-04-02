@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>claudia.reyes@anu.edu.au</title>
+    <title> </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
     <meta name="generator" content="Hugo 0.145.0">
@@ -21,7 +21,7 @@
 
 
   
-    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css?v=2">
   
 
 
@@ -34,8 +34,8 @@
 
     
     
-      <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="claudia.reyes@anu.edu.au" />
-      <link href="/post/index.xml" rel="feed" type="application/rss+xml" title="claudia.reyes@anu.edu.au" />
+      <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title=" " />
+      <link href="/post/index.xml" rel="feed" type="application/rss+xml" title=" " />
       
     
 
@@ -44,7 +44,7 @@
     
 
     <meta property="og:url" content="http://localhost:1313/post/">
-  <meta property="og:site_name" content="claudia.reyes@anu.edu.au">
+  <meta property="og:site_name" content=" ">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
@@ -62,34 +62,100 @@
 
   <header>
     <div class="pb3-m pb6-l bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        claudia.reyes@anu.edu.au
-      
-    </a>
-    <div class="flex-l items-center">
-      
+      <style>
 
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/about/" title="About Me page">
-              About Me
-            </a>
-          </li>
-          
-        </ul>
-      
-      <div class="ananke-socials"></div>
-
+    .menu-container {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      z-index: 1001;
+    }
+    
+    .menu-toggle {
+      cursor: pointer;
+      width: 28px;
+      height: 24px;  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0;
+    }
+  
+    .menu-bar {
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+  
+    #dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 30px;
+      left: 0.5rem;
+      background-color: rgba(0, 0, 0, 0.95);
+      padding: 0.75rem 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+    }
+  
+    #dropdown-menu.show {
+      display: block;
+      opacity: 1;
+    }
+  
+    #dropdown-menu a {
+      display: block;
+      padding: 0.5rem 0;
+      color: white;
+      text-decoration: none;
+    }
+  
+    #dropdown-menu a:hover {
+      color: #00BFFF;
+    }
+  </style>
+  
+  <div class="menu-container">
+    <div class="menu-toggle" onclick="toggleDropdown(event)">
+      <div class="menu-bar"></div>
+      <div class="menu-bar"></div>
+      <div class="menu-bar"></div>
     </div>
+  
+    <ul id="dropdown-menu">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/about/">About Me</a></li>
+      
+        <li><a href="/media/">Media</a></li>
+      
+      <li><a href="mailto:claudia.reyes@anu.edu.au">Contact Me</a></li>
+    </ul>    
   </div>
-</nav>
-
-      <div class="tc-l pv3 ph3 ph4-ns">
+  
+  <script>
+    function toggleDropdown(event) {
+      event.preventDefault();
+      const menu = document.getElementById("dropdown-menu");
+      menu.classList.toggle("show");
+    }
+  
+    document.addEventListener("click", function (e) {
+      const dropdown = document.getElementById("dropdown-menu");
+      if (dropdown && !dropdown.contains(e.target) && !e.target.closest(".menu-toggle")) {
+        dropdown.classList.remove("show");
+      }
+    });
+  </script>
+  
+  
+      <div class="tc-l ph3 ph4-ns compact-title">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
           Posts
         </h1>
@@ -195,6 +261,63 @@ portion of the spectrum where the excess power is located, and the red vertical 
 <p>In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.</p>
     </div>
   <a href="/post/vetting/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+    <h1 class="f3 near-black">
+      <a href="/post/about/" class="link black dim">
+        About Me
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <style>
+  /* Portrait image styles */
+  .tiny-left {
+    float: left;
+    width: 100px;
+    margin: 0 1em 1em 0;
+  }
+  .wide-image {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 2em;
+  }
+  /* Image grid for gallery */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    max-width:900px;
+    margin: 3em auto;
+  }
+
+  .image-grid figure {
+    margin: 0;
+    text-align: center;
+  }
+
+  .image-grid img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+
+  .image-caption {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.5em;
+    font-style: italic;
+  }
+</style>
+<img src="/images/portrait.jpg" alt="Portrait photo" class="tiny-left">
+<p>I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.</p>
+    </div>
+  <a href="/post/about/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 
         </div>

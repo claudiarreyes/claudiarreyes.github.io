@@ -22,7 +22,11 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/post/about/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/media/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
