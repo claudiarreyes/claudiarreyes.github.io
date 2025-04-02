@@ -66,6 +66,7 @@ header.cover.uniform-header {
   header.cover.uniform-header {
     height: 25vh;
     min-height: 200px;
+    background-color: red;
   }
 }
 
