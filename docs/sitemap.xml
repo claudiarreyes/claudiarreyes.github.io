@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://claudiarreyes.github.io/post/small_spacings/</loc>
-    <lastmod>2025-03-20T08:57:33+11:00</lastmod>
+    <loc>https://claudiarreyes.github.io/post/beacon/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://claudiarreyes.github.io/post/</loc>
+    <loc>https://claudiarreyes.github.io/post/small_spacings/</loc>
     <lastmod>2025-03-20T08:57:33+11:00</lastmod>
   </url><url>
     <loc>https://claudiarreyes.github.io/post/m67/</loc>
@@ -18,6 +18,9 @@
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://claudiarreyes.github.io/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://claudiarreyes.github.io/post/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://claudiarreyes.github.io/about/</loc>
