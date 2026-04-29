@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research works on  </title>
+    <title>Posts on  </title>
     <link>https://claudiarreyes.github.io/post/</link>
-    <description>Recent content in Research works on  </description>
+    <description>Recent content in Posts on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 08:57:33 +1100</lastBuildDate>
     <atom:link href="https://claudiarreyes.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BEACON: Student Research Projects</title>
-      <link>https://claudiarreyes.github.io/post/beacon/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://claudiarreyes.github.io/post/beacon/</guid>
-      <description>&lt;figure style=&#34;text-align: center; margin: 2rem auto;&#34;&gt;&#xA;  &lt;img src=&#34;https://claudiarreyes.github.io/images/BEACON_copy.png&#34; alt=&#34;BEACON project logo&#34; style=&#34;max-width: 480px; width: 100%; border-radius: 8px;&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&lt;h2 id=&#34;connecting-stellar-and-galactic-evolution-using-high-fidelity-benchmark-stars&#34;&gt;Connecting Stellar and Galactic Evolution Using High-Fidelity Benchmark Stars&lt;/h2&gt;&#xA;&lt;p&gt;I am currently offering student research projects as part of the &lt;strong&gt;BEACON&lt;/strong&gt; program — &lt;strong&gt;B&lt;/strong&gt;aseline &lt;strong&gt;E&lt;/strong&gt;volutionary-&lt;strong&gt;A&lt;/strong&gt;nchored &lt;strong&gt;C&lt;/strong&gt;haracterisation &lt;strong&gt;O&lt;/strong&gt;f &lt;strong&gt;N&lt;/strong&gt;earby stars.&lt;/p&gt;&#xA;&lt;p&gt;BEACON aims to establish an empirically calibrated framework linking stellar oscillation properties to independently measured stellar masses, radii, and ages across post-solar evolutionary phases. By anchoring survey-scale seismic measurements to benchmark stars with dynamical masses and interferometric radii, the project will enable precise, model-independent stellar ages to be derived for evolved stars throughout the Milky Way.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Acoustic modes in M67 trace deepening convective envelopes</title>
       <link>https://claudiarreyes.github.io/post/small_spacings/</link>
