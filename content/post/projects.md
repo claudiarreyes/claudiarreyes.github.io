@@ -92,7 +92,7 @@ description: ""
 
   <div class="project-card">
     <a href="/post/beacon-i/">
-      <img src="/images/beacon_EB.png" alt="BEACON-I">
+      {{< simg src="/images/beacon_EB.png" alt="BEACON-I" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
         <h3>BEACON-I · Precision Characterisation of Early Red Giant Stars with Eclipsing Binaries</h3>
@@ -103,7 +103,7 @@ description: ""
 
   <div class="project-card">
     <a href="/post/beacon-ii/">
-      <img src="/images/beacon_RC.png" alt="BEACON-II">
+      {{< simg src="/images/beacon_RC.png" alt="BEACON-II" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
         <h3>BEACON-II · High-Fidelity Modelling of Core Helium-Burning Stars</h3>
@@ -114,7 +114,7 @@ description: ""
 
   <div class="project-card">
     <a href="/post/beacon-iii/">
-      <img src="/images/beacon_IF.png" alt="BEACON-III">
+      {{< simg src="/images/beacon_IF.png" alt="BEACON-III" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
         <h3>BEACON-III · Model-Independent Calibration of Stellar Radii</h3>
@@ -125,7 +125,7 @@ description: ""
 
   <div class="project-card">
     <a href="/post/magnetic-cores/">
-      <img src="/images/magnetic.png" alt="Magnetic Cores">
+      {{< simg src="/images/magnetic.png" alt="Magnetic Cores" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
         <h3>Magnetic Cores in Evolved Stars and the Galactic Context of Hidden Stellar Dynamos</h3>
@@ -136,7 +136,7 @@ description: ""
 
   <div class="project-card">
     <a href="/post/lithium-rich/">
-      <img src="/images/Li_cover.png" alt="Lithium-rich Giants">
+      {{< simg src="/images/Li_cover.png" alt="Lithium-rich Giants" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
         <h3>Unveiling the Inner Workings of Lithium-rich Red Giants through Asteroseismology</h3>
