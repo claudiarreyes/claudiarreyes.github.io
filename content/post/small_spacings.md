@@ -19,12 +19,12 @@ Using asteroseismic data from 27 stars in the open cluster M67, we found clear d
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 2rem 0;">
   <video style="flex: 1 1 300px; max-width: 40%;" controls>
-    <source src="/videos/small_separations_1.0M.mp4" type="video/mp4">
+    <source src="videos/small_separations_1.0M.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
   <video style="flex: 1 1 300px; max-width: 40%;" controls>
-    <source src="/videos/small_separations_1.7M.mp4" type="video/mp4">
+    <source src="videos/small_separations_1.7M.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -39,7 +39,7 @@ As stars evolve, their outer convective layers begin to dig deeper into the inte
 
 <div style="display: flex; justify-content: center; padding: 2rem 0;">
   <video style="width: 100%; max-width: 800px; border-radius: 8px;" controls>
-    <source src="/videos/animation_with_audio_models_only_no_jargon.mp4" type="video/mp4">
+    <source src="videos/animation_with_audio_models_only_no_jargon.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
