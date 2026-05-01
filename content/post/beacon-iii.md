@@ -27,12 +27,13 @@ Interferometric data analysis, seismic scaling relations, large-scale survey dep
 A pristine sample of evolved stars with empirically anchored masses and radii, and calibration prescriptions deployable to ≥50,000 TESS targets.
 
 <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.4); margin: 2rem 0;">
-<div style="display: flex; align-items: flex-start; gap: 1.5rem; margin: 2rem 4rem;">
-  <img src="/images/BEACON.png" alt="BEACON logo" style="width: 15%; flex-shrink: 0; border-radius: 8px;">
-  <p style="font-size: 0.9em; line-height: 1.8; font-style: italic;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem; margin: 2rem 4rem;">
+  <img src="/images/BEACON.png" alt="BEACON logo" style="width: 40%; min-width: 200px; flex-shrink: 0; border-radius: 8px;">
+  <p style="flex: 1; min-width: 350px; font-size: 0.9em; line-height: 1.8; font-style: italic;">
     BEACON aims to establish an empirically calibrated framework linking stellar oscillation properties to independently measured stellar masses, radii, and ages across post-solar evolutionary phases. By anchoring survey-scale seismic measurements to benchmark stars with dynamical masses and interferometric radii, the project will enable precise, model-independent stellar ages to be derived for evolved stars throughout the Milky Way.
   </p>
 </div>
 <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.4); margin: 2rem 0;">
+
 If you want to know more, please get in touch via <a href="mailto:claudia.reyes@anu.edu.au">email</a>.
 
