@@ -151,7 +151,7 @@ article:has(a[href$="/beacon/"]) {
 }
 
 body {
-  background-image: url('/images/mw_forest.png');
+  background-image: url('../images/mw_forest.png');
   background-repeat: repeat;
   background-size: auto;
 }
