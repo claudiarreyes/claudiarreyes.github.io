@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research works on  </title>
+    <title>Posts on  </title>
     <link>https://claudiarreyes.github.io/post/</link>
-    <description>Recent content in Research works on  </description>
+    <description>Recent content in Posts on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 08:57:33 +1100</lastBuildDate>
     <atom:link href="https://claudiarreyes.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BEACON: Student Research Projects</title>
-      <link>https://claudiarreyes.github.io/post/beacon/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://claudiarreyes.github.io/post/beacon/</guid>
-      <description>&lt;figure style=&#34;text-align: center; margin: 2rem auto;&#34;&gt;&#xA;  &lt;img src=&#34;https://claudiarreyes.github.io/images/BEACON_copy.png&#34; alt=&#34;BEACON project logo&#34; style=&#34;max-width: 480px; width: 100%; border-radius: 8px;&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&lt;h2 id=&#34;connecting-stellar-and-galactic-evolution-using-high-fidelity-benchmark-stars&#34;&gt;Connecting Stellar and Galactic Evolution Using High-Fidelity Benchmark Stars&lt;/h2&gt;&#xA;&lt;p&gt;I am currently offering student research projects as part of the &lt;strong&gt;BEACON&lt;/strong&gt; program — &lt;strong&gt;B&lt;/strong&gt;aseline &lt;strong&gt;E&lt;/strong&gt;volutionary-&lt;strong&gt;A&lt;/strong&gt;nchored &lt;strong&gt;C&lt;/strong&gt;haracterisation &lt;strong&gt;O&lt;/strong&gt;f &lt;strong&gt;N&lt;/strong&gt;earby stars.&lt;/p&gt;&#xA;&lt;p&gt;BEACON aims to establish an empirically calibrated framework linking stellar oscillation properties to independently measured stellar masses, radii, and ages across post-solar evolutionary phases. By anchoring survey-scale seismic measurements to benchmark stars with dynamical masses and interferometric radii, the project will enable precise, model-independent stellar ages to be derived for evolved stars throughout the Milky Way.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Acoustic modes in M67 trace deepening convective envelopes</title>
       <link>https://claudiarreyes.github.io/post/small_spacings/</link>
@@ -42,6 +35,13 @@
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://claudiarreyes.github.io/post/vetting/</guid>
       <description>&lt;p&gt;Asteroseismology provides precise measurements of stellar properties, making it a powerful tool for large-scale stellar studies. Two key parameters, ν&lt;sub&gt;max&lt;/sub&gt; (the frequency of maximum acoustic power) and Δν (the frequency separation between oscillation modes), are commonly used to estimate mass and radius. While automated methods can extract these values from power spectra, ensuring their accuracy typically requires manual vetting or strict filtering criteria.&lt;/p&gt;&#xA;&lt;p&gt;In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://claudiarreyes.github.io/post/projects/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://claudiarreyes.github.io/post/projects/</guid>
+      <description>&lt;style&gt;&#xA;.project-grid {&#xA;  display: flex;&#xA;  flex-wrap: wrap;&#xA;  gap: 1.5rem;&#xA;  margin-top: 2rem;&#xA;}&#xA;.project-card {&#xA;  flex: 1 1 calc(50% - 0.75rem);&#xA;  min-width: 280px;&#xA;  border: 1px solid rgba(255,255,255,0.15);&#xA;  border-radius: 12px;&#xA;  overflow: hidden;&#xA;  background: rgba(5, 10, 30, 0.55);&#xA;  backdrop-filter: blur(12px);&#xA;  -webkit-backdrop-filter: blur(12px);&#xA;  transition: transform 0.2s ease, box-shadow 0.2s ease;&#xA;}&#xA;.project-card:hover {&#xA;  transform: translateY(-4px);&#xA;  box-shadow: 0 8px 24px rgba(0,0,0,0.4);&#xA;}&#xA;.project-card a {&#xA;  text-decoration: none;&#xA;  color: inherit;&#xA;  display: block;&#xA;}&#xA;.project-card img {&#xA;  width: 100%;&#xA;  height: 200px;&#xA;  object-fit: cover;&#xA;}&#xA;.project-card .card-body {&#xA;  padding: 1rem;&#xA;}&#xA;.project-card h3 {&#xA;  margin: 0 0 0.5rem 0;&#xA;  font-size: 1rem;&#xA;  font-weight: 700;&#xA;  color: #f0f0f0;&#xA;}&#xA;.project-card p {&#xA;  margin: 0;&#xA;  font-size: 0.85rem;&#xA;  color: #ccc;&#xA;  line-height: 1.5;&#xA;}&#xA;.card-tag {&#xA;  display: inline-block;&#xA;  font-size: 0.75rem;&#xA;  background: rgba(201, 168, 76, 0.25);&#xA;  border: 1px solid #c9a84c;&#xA;  color: #c9a84c;&#xA;  border-radius: 4px;&#xA;  padding: 2px 8px;&#xA;  margin-bottom: 0.5rem;&#xA;}&#xA;@media (max-width: 600px) {&#xA;  .project-card { flex: 1 1 100%; }&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;figure style=&#34;float: left; margin: 0 2rem 1rem 0;&#34;&gt;&#xA;  &lt;img src=&#34;https://claudiarreyes.github.io/images/sciencelaptop.png&#34; alt=&#34;student projects&#34; style=&#34;max-width: 400px; width: 100%; border-radius: 8px;&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&lt;div style=&#34;display: flex; align-items: flex-start; gap: 1.5rem; margin: 2rem 4rem;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.05em; line-height: 1.8; font-style: italic;&#34;&gt;&#xA;    I am currently offering &lt;strong&gt;five student research projects&lt;/strong&gt;. Three are part of the&#xA;    &lt;strong&gt;BEACON&lt;/strong&gt; program (&lt;strong&gt;B&lt;/strong&gt;aseline &lt;strong&gt;E&lt;/strong&gt;volutionary-&lt;strong&gt;A&lt;/strong&gt;nchored&#xA;    &lt;strong&gt;C&lt;/strong&gt;haracterisation &lt;strong&gt;O&lt;/strong&gt;f &lt;strong&gt;N&lt;/strong&gt;earby stars), which aims to establish&#xA;    a gold-standard set of benchmark stars calibrated with model-independent methods — a standard ruler for stellar&#xA;    ages across the Milky Way. The remaining two independent projects explore the hidden magnetic fields buried&#xA;    inside evolved stars and the mysterious origin of lithium enrichment in red giants, both using asteroseismology&#xA;    to reveal physical processes that leave subtle but measurable imprints on stellar oscillations.&#xA;  &lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
