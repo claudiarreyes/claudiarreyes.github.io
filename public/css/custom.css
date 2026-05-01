@@ -168,13 +168,17 @@ main .cf {
   color: #f0f0f0 !important;
 }}
 
+
+.responsive-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 4rem;
+}
+
 @media (max-width: 600px) {
-  .flex-wrap {
-    margin-left: 0.5rem !important;
-    margin-right: 0.5rem !important;
-  }
-  div[style*="margin: 2rem 6rem"] {
-    margin-left: 0.5rem !important;
-    margin-right: 0.5rem !important;
+  .responsive-section {
+    margin: 1rem 0.5rem;
   }
 }

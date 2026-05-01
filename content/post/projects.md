@@ -70,7 +70,7 @@ description: ""
 }
 </style>
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 2rem 4rem;">
+<div class="responsive-section">
   <img src="/images/sciencelaptop.png" alt="student projects" style="flex: 1 1 300px; max-width: 100%; border-radius: 8px; width: 40%;">
   <p style="flex: 1 1 400px; font-size: 1.05em; line-height: 1.8; font-style: italic;">
     I am currently offering <strong>five student research projects</strong>. Three are part of the
