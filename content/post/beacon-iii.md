@@ -7,7 +7,9 @@ description: ""
 _build:
   list: never
 ---
-
+<figure style="text-align: center;">
+  <img src="images/beacon_IF.png" alt="B-III" style="width: auto; max-height: 300px; border-radius: 6px;">
+</figure>
 
 This project incorporates interferometric measurements of stellar angular diameters to provide model-independent stellar radii for a sample of nearby stars spanning a range of evolutionary phases — from the main sequence through the red clump. These radii are used to corroborate masses and ages derived from BEACON-I and BEACON-II, and to refine evolutionary-stage-dependent correction factors.
 

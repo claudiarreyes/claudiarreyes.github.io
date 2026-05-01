@@ -8,6 +8,9 @@ _build:
   list: never
 ---
 
+<figure style="text-align: center;">
+  <img src="images/beacon_RC.png" alt="B-II" style="width: auto; max-height: 300px; border-radius: 6px;">
+</figure>
 
 This project develops a framework for refining stellar models of red clump (core helium-burning) stars — a regime where current models are generally not trusted. The work incorporates empirically derived, metallicity-dependent mass-loss prescriptions that have only recently become available, and uses population-level constraints from large spectroscopic surveys to tune internal mixing processes.
 

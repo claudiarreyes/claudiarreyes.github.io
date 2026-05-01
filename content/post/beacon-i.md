@@ -8,6 +8,9 @@ _build:
   list: never
 ---
 
+<figure style="text-align: center;">
+  <img src="images/beacon_EB.png" alt="B-I" style="width: auto; max-height: 300px; border-radius: 6px;">
+</figure>
 
 This project implements and empirically validates a scalable seismic diagnostic for stellar mass and age inference in early red giant branch stars. Rather than developing a new inference scheme from scratch, the work deploys an existing, physically motivated diagnostic that exploits a structural feature in oscillation frequencies which becomes strongly mass-sensitive following the subgiant phase, as described in [this paper](https://www.nature.com/articles/s41586-025-08760-2).
 
