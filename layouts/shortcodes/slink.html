@@ -1,0 +1,1 @@
+<a href="{{ .Get "href" | strings.TrimLeft "/" | absURL }}"{{ with .Get "class" }} class="{{ . }}"{{ end }}>{{ .Inner }}</a>

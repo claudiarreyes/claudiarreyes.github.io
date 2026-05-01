@@ -29,7 +29,7 @@ A set of at least 100 gold-standard red clump benchmark stars, and transferable 
 
 <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.4); margin: 2rem 0;">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 2rem clamp(0.5rem, 4vw, 4rem);">
-  <img src="/images/beacon.png" alt="BEACON logo" style="flex: 1 1 200px; max-width: 100%; width: 40%; border-radius: 8px;">
+  <img src="images/beacon.png" alt="BEACON logo" style="flex: 1 1 200px; max-width: 100%; width: 40%; border-radius: 8px;">
   <p style="flex: 1 1 350px; font-size: 0.9em; line-height: 1.8; font-style: italic;">
     BEACON aims to establish an empirically calibrated framework linking stellar oscillation properties to independently measured stellar masses, radii, and ages across post-solar evolutionary phases. By anchoring survey-scale seismic measurements to benchmark stars with dynamical masses and interferometric radii, the project will enable precise, model-independent stellar ages to be derived for evolved stars throughout the Milky Way.
   </p>

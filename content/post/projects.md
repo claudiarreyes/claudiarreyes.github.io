@@ -72,7 +72,7 @@ description: ""
 </style>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 2rem clamp(0.5rem, 4vw, 4rem);">
-  <img src="/images/sciencelaptop.png" alt="BEACON logo" style="flex: 1 1 200px; max-width: 100%; width: 40%; border-radius: 8px;">
+  {{< simg src="/images/sciencelaptop.png" alt="student projects" style="flex: 1 1 200px; max-width: 100%; width: 40%; border-radius: 8px;" >}}
   <p style="flex: 1 1 350px; font-size: 0.9em; line-height: 1.8; font-style: italic;">
     I am currently offering <strong>five student research projects</strong>. Three are part of the
     <strong>BEACON</strong> program (<strong>B</strong>aseline <strong>E</strong>volutionary-<strong>A</strong>nchored
@@ -91,7 +91,7 @@ description: ""
 <div class="project-grid">
 
   <div class="project-card">
-    <a href="/post/beacon-i/">
+    <a href="post/beacon-i/">
       {{< simg src="/images/beacon_EB.png" alt="BEACON-I" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
@@ -102,7 +102,7 @@ description: ""
   </div>
 
   <div class="project-card">
-    <a href="/post/beacon-ii/">
+    <a href="post/beacon-ii/">
       {{< simg src="/images/beacon_RC.png" alt="BEACON-II" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
@@ -113,7 +113,7 @@ description: ""
   </div>
 
   <div class="project-card">
-    <a href="/post/beacon-iii/">
+    <a href="post/beacon-iii/">
       {{< simg src="/images/beacon_IF.png" alt="BEACON-III" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
@@ -124,7 +124,7 @@ description: ""
   </div>
 
   <div class="project-card">
-    <a href="/post/magnetic-cores/">
+    <a href="post/magnetic-cores/">
       {{< simg src="/images/magnetic.png" alt="Magnetic Cores" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
@@ -135,7 +135,7 @@ description: ""
   </div>
 
   <div class="project-card">
-    <a href="/post/lithium-rich/">
+    <a href="post/lithium-rich/">
       {{< simg src="/images/Li_cover.png" alt="Lithium-rich Giants" >}}
       <div class="card-body">
         <span class="card-tag">Masters / PhD</span>
