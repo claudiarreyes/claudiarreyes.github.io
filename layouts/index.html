@@ -13,8 +13,7 @@
         <div class="{{ if $isBeacon }}w-100{{ else }}w-100 w-50-l{{ end }} pa2">
           <a href="{{ .RelPermalink }}" class="db link dim dark-gray bb b--black-10">
             {{ if $featured_image }}
-              <img src="{{ $featured_image }}" alt="{{ .Title }}" class="w-100 db" style="height: {{ if $isBeacon }}320px{{ else }}220px{{ end }}; object-fit: cover;">
-            {{ end }}
+              <img src="{{ $featured_image | absURL }}" alt="{{ .Title }}" class="w-100 db" style="height: {{ if $isBeacon }}320px{{ else }}220px{{ end }}; object-fit: cover;">            {{ end }}
             <div class="pa3">
               <h2 class="f4 fw6 mv0">{{ .Title }}</h2>
             </div>

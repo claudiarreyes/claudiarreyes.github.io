@@ -1,38 +1,24 @@
 {{ define "main" }}
 <article class="pa3 pa4-ns center lh-copy" style="max-width: 1200px; width: 80%;">
+
+  {{ $backURL := "/" | absURL }}
+  {{ $backLabel := "← Back to Home" }}
+  {{ if or (hasPrefix .File.BaseFileName "beacon-") (eq .File.BaseFileName "magnetic-cores") (eq .File.BaseFileName "lithium-rich") }}
+    {{ $backURL = "post/projects/" | absURL }}
+    {{ $backLabel = "← Back to Projects" }}
+  {{ end }}
+
   <div class="tc mt4">
-    {{ $backURL := "/" | absURL}}
-    {{ $backLabel := "← Back to Home" }}
-    {{ if hasPrefix .File.BaseFileName "beacon-" }}
-      {{ $backURL = "/post/projects/" }}
-      {{ $backLabel = "← Back to Projects" }}
-    {{ else if or (eq .File.BaseFileName "magnetic-cores") (eq .File.BaseFileName "lithium-rich") }}
-      {{ $backURL = "/post/projects/" }}
-      {{ $backLabel = "← Back to Projects" }}
-    {{ end }}
-    <div class="tc mt4">
-      <a href="{{ $backURL }}" class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-gray">{{ $backLabel }}</a>
-    </div>
+    <a href="{{ $backURL }}" class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-gray">{{ $backLabel }}</a>
   </div>
-  <!-- <p><time>{{ .Date.Format "January 2, 2006" }}</time></p> -->
+
   <div class="mt3">
     {{ .Content }}
   </div>
 
   <div class="tc mt4">
-    {{ $backURL := "/" | absURL}}
-    {{ $backLabel := "← Back to Home" }}
-    {{ if hasPrefix .File.BaseFileName "beacon-" }}
-      {{ $backURL = "/post/projects/" }}
-      {{ $backLabel = "← Back to Projects" }}
-    {{ else if or (eq .File.BaseFileName "magnetic-cores") (eq .File.BaseFileName "lithium-rich") }}
-      {{ $backURL = "/post/projects/" }}
-      {{ $backLabel = "← Back to Projects" }}
-    {{ end }}
-    <div class="tc mt4">
-      <a href="{{ $backURL }}" class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-gray">{{ $backLabel }}</a>
-    </div>
+    <a href="{{ $backURL }}" class="f6 link dim br2 ba ph3 pv2 mb2 dib dark-gray">{{ $backLabel }}</a>
   </div>
+
 </article>
 {{ end }}
-
