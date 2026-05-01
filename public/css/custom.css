@@ -1,0 +1,196 @@
+.mw8 {
+  max-width: 100% !important;
+  margin: 0 auto;
+}
+
+/* Frosted glass card titles on homepage */
+.mw9 .flex-wrap .pa2 h2 {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: #f0f0f0;
+  padding: 0.75rem 1rem;
+  margin: 0;
+}
+
+/* Ensure text is readable over background on all pages */
+main p,
+main li,
+main h1,
+main h2,
+main h3,
+main h4,
+main figcaption,
+main .image-caption {
+  color: #ffffff !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9), 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Media page and general link readability */
+main a {
+  color:#39ea44  !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+main a:hover {
+  color: #39ea44  !important;
+}
+
+/* Narrow the container on single post pages */
+main.single-page {
+  max-width: 80% !important;
+  margin: 0 auto;
+}
+
+.wide-content .measure {
+  max-width: 100% !important;
+}
+
+/* Shrink title + overlay padding on all headers */
+header.cover .bg-black-60 {
+  height: 100%;
+  display: flex;
+  align-items: center; /* vertically centers the title */
+  justify-content: center;
+  padding: 0; /* remove any inherited padding */
+}
+
+header.cover .tc-l {
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+/* Optional: tighten on small screens */
+@media (max-width: 768px) {
+  header.cover .tc-l {
+    padding: 1rem 1rem;
+  }
+}
+
+/* Shrink the title block padding */
+.compact-title {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Responsive page title */
+.compact-title h1 {
+  font-size: clamp(1.5rem, 6vw, 3rem);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive subtitle */
+.compact-title h2 {
+  font-size: clamp(1rem, 4.5vw, 1.5rem);
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/* Shorter header only on wide screens */
+@media (min-width: 769px) {
+  header.cover.uniform-header {
+    height: 22vh;
+    min-height: 160px;
+    max-height: 280px;
+  }
+}
+
+/* Slightly shorter on mobile */
+@media (max-width: 768px) {
+  header.cover.uniform-header {
+    height: 25vh;
+    min-height: 200px;
+  }
+}
+
+/* Reduce homepage header size only */
+body.home header.cover {
+  height: 48vh;
+  min-height: 260px;
+}
+
+@media (min-width: 768px) {
+  body.home header.cover {
+    height: 60vh;
+    min-height: 320px;
+  }
+}
+
+/* Left-align header title + subtitle on mobile */
+@media (max-width: 768px) {
+  header.cover .tc-l {
+    text-align: left;
+  }
+
+  header.cover .tc-l h1,
+  header.cover .tc-l h2 {
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/* Slightly reduce content font size on desktop */
+main,
+article,
+.post-content,
+section,
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* BEACON card spans full width on desktop */
+article:has(a[href$="/beacon/"]) {
+  width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+body {
+  background-image: url('../images/mw_forest.png');
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.single-content,
+.post-body,
+main article,
+main .cf {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: #f0f0f0 !important;
+}
+
+
+.responsive-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 4rem;
+}
+
+.responsive-section img {
+  flex: 1 1 200px;
+  max-width: 100%;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.responsive-section p,
+.responsive-section figcaption {
+  flex: 1 1 350px;
+}
+
+@media (max-width: 600px) {
+  .responsive-section {
+    margin: 1rem 0.5rem;
+  }
+}
