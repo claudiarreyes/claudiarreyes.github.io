@@ -11,6 +11,5 @@ Welcome to my research website. My work in asteroseismology combines observation
 
 A full list of my authored articles can be found <a href="https://ui.adsabs.harvard.edu/public-libraries/86WKltosRD2NQ60lLUBd9w" target="_blank">here</a>.
 
-Below, you will find an overview of some of my research projects. 
-Please feel free to explore the summaries and follow the links to access the full publications.
+Below, you will find an overview of some of my **research projects** and available **student projects**.
 

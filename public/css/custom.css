@@ -3,6 +3,41 @@
   margin: 0 auto;
 }
 
+/* Frosted glass card titles on homepage */
+.mw9 .flex-wrap .pa2 h2 {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: #f0f0f0;
+  padding: 0.75rem 1rem;
+  margin: 0;
+}
+
+/* Ensure text is readable over background on all pages */
+main p,
+main li,
+main h1,
+main h2,
+main h3,
+main h4,
+main figcaption,
+main .image-caption {
+  color: #ffffff !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9), 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Media page and general link readability */
+main a {
+  color:#39ea44  !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+main a:hover {
+  color: #39ea44  !important;
+}
+
 /* Narrow the container on single post pages */
 main.single-page {
   max-width: 80% !important;
@@ -55,10 +90,13 @@ header.cover .tc-l {
   line-height: 1.4;
 }
 
-/* Unified header height for all pages */
-header.cover.uniform-header {
-  height: 35vh;
-  min-height: 260px;
+/* Shorter header only on wide screens */
+@media (min-width: 769px) {
+  header.cover.uniform-header {
+    height: 22vh;
+    min-height: 160px;
+    max-height: 280px;
+  }
 }
 
 /* Slightly shorter on mobile */
@@ -66,7 +104,6 @@ header.cover.uniform-header {
   header.cover.uniform-header {
     height: 25vh;
     min-height: 200px;
-    background-color: red;
   }
 }
 
@@ -106,3 +143,27 @@ p {
   font-size: 1.1rem;
   line-height: 1.5;
 }
+
+/* BEACON card spans full width on desktop */
+article:has(a[href$="/beacon/"]) {
+  width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+body {
+  background-image: url('/images/mw_forest.png');
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.single-content,
+.post-body,
+main article,
+main .cf {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: #f0f0f0 !important;
+}}

@@ -50,15 +50,22 @@ featured_image: "/images/stromlo.JPG"
 
 I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.
 
-I completed my PhD at the University of New South Wales (UNSW) in Sydney. My thesis was titled *"Asteroseismology of giant stars: applications on stellar populations in the field and in the open cluster M67."*
+I completed my PhD at the University of New South Wales (UNSW) in Sydney. My thesis was titled *"Asteroseismology of giant stars: applications on stellar populations in the field and in the open cluster M67"*, for which I was awarded the Bragg Gold Medal for Excellence in Physics.
 
 I also hold an MSc in Astrophysics from Liverpool John Moores University (LJMU) in England, and a degree in Electronic Engineering from the Universidad de La Frontera (UFRO) in Chile.
 
 Before my PhD, I worked at the Very Large Telescope (VLT) in Paranal, located in the Atacama Desert in Chile, as part of the telescopes & instruments operations team.
 
-My current research interests include asteroseismology, galactic archaeology, stellar clusters, and binary stars.
+<!--
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+  <a href="/REYES_CV.pdf" target="_blank" rel="noopener" style="padding: 10px 16px; background-color: black; color: white; text-decoration: none; border-radius: 6px;">
+   Go to CV
+  </a>
+</div>
+-->
+My research interests include asteroseismology, galactic archaeology, stellar clusters, and binary stars.
 
-
+------
 
 <figure style="text-align: center; margin-bottom: 2em;">
   <img src="/images/stromlo.JPG" alt="The view from Mount Stromlo (RSAA, ANU)" style="max-width: 100%; border-radius: 6px;">

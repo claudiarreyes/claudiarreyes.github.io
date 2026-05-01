@@ -20,6 +20,7 @@ In this project we tested the performance of a neural network classifier designe
 The classifier is independent of the method used to obtain ν<sub>max</sub> and Δν, making it a versatile tool for large datasets.
 Applying this method to red giant stars observed by the **K2 Galactic Archaeology Program**, we find that our results are consistent with well-characterized Kepler measurements. This approach enables the efficient selection of high-quality asteroseismic samples, supporting studies in Galactic archaeology and stellar evolution.
 
-**Read the full paper [here](https://doi.org/10.1093/mnras/stac445).**
+**Read the full study [here](https://doi.org/10.1093/mnras/stac445).**
+
 
 📥 **Download the vetted K2 sample [here](https://doi.org/10.26093/cds/vizier.75115578).**  

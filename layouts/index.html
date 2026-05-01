@@ -1,12 +1,26 @@
 {{ define "main" }}
-<!--  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
-    -->
-<article class="cf ph3 ph4-l pt3 pt4-l pb2 pb3-l f4 tc-l center lh-copy" style="max-width: 80ch;">
-
-	{{ .Content }}
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+    {{ .Content }}
   </article>
-
-  {{ partial "cards.html" . }}
-
+  {{ $mainSections := site.Params.mainSections | default (slice "post") }}
+  {{ $section := where $.Site.RegularPages "Section" "in" $mainSections }}
+  {{ $posts := where $section "Title" "ne" "About Me" }}
+  <div class="mw9 center ph3 ph5-l">
+    <div class="flex flex-wrap">
+      {{ range $posts }}
+        {{ $isBeacon := eq .File.BaseFileName "projects" }}
+        {{ $featured_image := .Params.card_image | default (partial "func/GetFeaturedImage.html" .) }}
+        <div class="{{ if $isBeacon }}w-100{{ else }}w-100 w-50-l{{ end }} pa2">
+          <a href="{{ .RelPermalink }}" class="db link dim dark-gray bb b--black-10">
+            {{ if $featured_image }}
+              <img src="{{ $featured_image }}" alt="{{ .Title }}" class="w-100 db" style="height: {{ if $isBeacon }}320px{{ else }}220px{{ end }}; object-fit: cover;">
+            {{ end }}
+            <div class="pa3">
+              <h2 class="f4 fw6 mv0">{{ .Title }}</h2>
+            </div>
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
 {{ end }}
-

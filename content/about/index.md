@@ -56,6 +56,7 @@ Before my PhD, I worked at the Very Large Telescope (VLT) in Paranal, located in
 
 My current research interests include asteroseismology, galactic archaeology, stellar clusters, and binary stars.
 
+<!-- <p><a href="/REYES_CV.pdf" target="_blank" rel="noopener" style="padding: 8px 12px; background-color: #007acc; color: white; text-decoration: none; border-radius: 4px;">Download CV</a></p>-->
 
 
 <figure style="text-align: center; margin-bottom: 2em;">
