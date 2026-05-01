@@ -12,7 +12,7 @@ Asteroseismology provides precise measurements of stellar properties, making it 
 In this project we tested the performance of a neural network classifier designed to automate the vetting process for Δν. By incorporating multiple features used in visual inspections, the model achieves 95% accuracy in identifying reliable measurements.
 
 <figure>
-  <img src="/images/neural-network-performance.jpeg" alt="Network performace">
+  <img src="images/neural-network-performance.jpeg" alt="Network performace">
   <figcaption style="font-size: 0.8em; color: gray;">(a) Distribution of neural network predictions on the training set. (b) Confusion matrix when a threshold is set at t = 0.5. Quadrants in black represent the number of correct predictions for each class and the white quadrants the number of mistakes for each class.</figcaption>
 </figure>
 

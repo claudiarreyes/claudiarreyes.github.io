@@ -46,7 +46,7 @@ featured_image: "/images/stromlo.JPG"
   }
 </style>
 
-<img src="/images/portrait.jpg" alt="Portrait photo" class="tiny-left">
+<img src="images/portrait.jpg" alt="Portrait photo" class="tiny-left">
 
 I am a Postdoctoral Fellow at the Australian National University (ANU) in Canberra, Australia, working in the field of asteroseismology. My research focuses on using stellar oscillations to probe the internal structure and evolution of stars.
 
@@ -68,14 +68,14 @@ My research interests include asteroseismology, galactic archaeology, stellar cl
 ------
 
 <figure style="text-align: center; margin-bottom: 2em;">
-  <img src="/images/stromlo.JPG" alt="The view from Mount Stromlo (RSAA, ANU)" style="max-width: 100%; border-radius: 6px;">
+  <img src="images/stromlo.JPG" alt="The view from Mount Stromlo (RSAA, ANU)" style="max-width: 100%; border-radius: 6px;">
   <figcaption style="font-size: 0.85rem; color: #555; margin-top: 0.5em; font-style: italic;">
     The view from Mount Stromlo (RSAA, ANU)
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 2em;">
-  <img src="/images/trail_wide.JPG" alt="Strolling near the VLT in the Atacama Desert" style="max-width: 100%; border-radius: 6px;">
+  <img src="images/trail_wide.JPG" alt="Strolling near the VLT in the Atacama Desert" style="max-width: 100%; border-radius: 6px;">
   <figcaption style="font-size: 0.85rem; color: #555; margin-top: 0.5em; font-style: italic;">
     Strolling near the VLT in the stunning Atacama Desert landscape
   </figcaption>
@@ -83,7 +83,7 @@ My research interests include asteroseismology, galactic archaeology, stellar cl
 
 
 <figure style="text-align: center; margin-bottom: 2em;">
-  <img src="/images/kangaroo.JPG" alt="Kangaroo at Stromlo" style="max-width: 50%; height: auto; border-radius: 6px; display: block; margin: 0 auto;">
+  <img src="images/kangaroo.JPG" alt="Kangaroo at Stromlo" style="max-width: 50%; height: auto; border-radius: 6px; display: block; margin: 0 auto;">
   <figcaption class="image-caption">Friendly local at Mount Stromlo</figcaption>
 </figure>
 
