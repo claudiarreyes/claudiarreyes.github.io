@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="pa3 pa4-ns center lh-copy" style="max-width: 1200px; width: 80%;">
   <div class="tc mt4">
-    {{ $backURL := "/" }}
+    {{ $backURL := "/" | absURL}}
     {{ $backLabel := "← Back to Home" }}
     {{ if hasPrefix .File.BaseFileName "beacon-" }}
       {{ $backURL = "/post/projects/" }}
@@ -20,7 +20,7 @@
   </div>
 
   <div class="tc mt4">
-    {{ $backURL := "/" }}
+    {{ $backURL := "/" | absURL}}
     {{ $backLabel := "← Back to Home" }}
     {{ if hasPrefix .File.BaseFileName "beacon-" }}
       {{ $backURL = "/post/projects/" }}

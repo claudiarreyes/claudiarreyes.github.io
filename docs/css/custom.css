@@ -167,3 +167,14 @@ main .cf {
   border-radius: 12px;
   color: #f0f0f0 !important;
 }}
+
+@media (max-width: 600px) {
+  .flex-wrap {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+  div[style*="margin: 2rem 6rem"] {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+}
