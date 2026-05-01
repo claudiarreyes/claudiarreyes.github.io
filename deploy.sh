@@ -1,16 +1,14 @@
 #!/bin/bash
+echo "Building for GitHub..."
+hugo --baseURL https://claudiarreyes.github.io --destination docs --cleanDestinationDir
+cp public/images/* docs/images/
+git add -A
+git commit -m "${1:-Update site}"
+git push origin main
 
-# Copy main index.html
-cp public/index.html .
+echo "Building for ANU..."
+hugo --baseURL https://www.mso.anu.edu.au/~creyes/ --destination docs_anu --cleanDestinationDir
+cp public/images/* docs_anu/images/
+scp -r docs_anu/* creyes@mso.anu.edu.au:~/public_html/
 
-# Loop through all posts and copy them
-for dir in public/post/*; do
-    if [ -d "$dir" ]; then
-        post_name=$(basename "$dir")
-        mkdir -p "post/$post_name"
-        cp "$dir/index.html" "post/$post_name/"
-    fi
-done
-
-echo "Deployment files copied successfully!"
-
+echo "Done!"
