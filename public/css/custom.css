@@ -177,6 +177,18 @@ main .cf {
   margin: 2rem 4rem;
 }
 
+.responsive-section img {
+  flex: 1 1 200px;
+  max-width: 100%;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.responsive-section p,
+.responsive-section figcaption {
+  flex: 1 1 350px;
+}
+
 @media (max-width: 600px) {
   .responsive-section {
     margin: 1rem 0.5rem;
